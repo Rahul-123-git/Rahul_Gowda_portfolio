@@ -1,5 +1,5 @@
 FROM nginx:alpine
 
-COPY portpolio.html /usr/share/nginx/html/portpolio.html
+COPY . /usr/share/nginx/html
 
 EXPOSE 80
